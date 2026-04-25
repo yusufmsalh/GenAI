@@ -1,5 +1,9 @@
 # 🤖 Smart Task Assistant
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youssefsalehsmartbot.streamlit.app/)
+
+🚀 **Live demo:** https://youssefsalehsmartbot.streamlit.app/
+
 A tiny demo combining **Generative AI** and **Agentic Engineering**.
 
 ## What it shows
