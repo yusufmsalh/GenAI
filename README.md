@@ -51,3 +51,4 @@ Open the URL Streamlit prints (usually http://localhost:8501).
 - Add **observability** (Application Insights / OpenTelemetry).
 - Add **guardrails** (content filtering, rate limits, allow-listed tools).
 - Containerize and deploy to **Azure Container Apps**.
+"# SmartTaskAssistant" 

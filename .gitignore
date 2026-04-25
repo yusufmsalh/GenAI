@@ -1,4 +1,26 @@
+﻿# --- Python / project ---
 .venv/
+venv/
 __pycache__/
+*.pyc
+*.pyo
 .env
+.env.*
+!.env.example
 .streamlit/
+*.log
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# --- OS ---
+Thumbs.db
+.DS_Store
