@@ -40,19 +40,10 @@ streamlit run app.py
 
 Open the URL Streamlit prints (usually http://localhost:8501).
 
-## Demo prompts for your manager
+## Demo prompts for your checking
 1. *"What's the weather in Tokyo right now?"* → calls `get_weather`.
 2. *"Add 'prepare slides for Monday' to my todos."* → calls `add_todo`.
 3. *"What is sqrt(144) + 25 * 3?"* → calls `calculate`.
 4. *"What's the weather in Paris and add 'pack umbrella' to my todo list."*
    → calls **two tools in sequence** — this is the agentic magic.
 5. *"Show my todos and mark task 1 done."* → calls `list_todos`, then `complete_todo`.
-
-## Production-ready next steps
-- Swap OpenAI for **Azure OpenAI** for enterprise compliance.
-- Persist the to-do list in a real DB (SQL / Cosmos DB).
-- Add **authentication** (Entra ID).
-- Add **observability** (Application Insights / OpenTelemetry).
-- Add **guardrails** (content filtering, rate limits, allow-listed tools).
-- Containerize and deploy to **Azure Container Apps**.
-"# SmartTaskAssistant" 
